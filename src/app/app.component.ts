@@ -100,7 +100,7 @@ export class AppComponent {
         nationality: car.driver?.nationality,
         name: `${car.driver?.name} ${car.driver?.lastName}`,
         number_Car: car.numberCar,
-        distance:`${car.distance}`
+        distance:car.distance
     })
     })        
    console.table(podium)
